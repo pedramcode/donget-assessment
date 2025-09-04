@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNumber, IsString, IsUUID } from 'class-validator';
+import { IsNumber, IsString, IsUUID, Min } from 'class-validator';
 
 export default class ExpencesCreateDto {
   @ApiProperty({ description: 'group id' })
@@ -12,6 +12,7 @@ export default class ExpencesCreateDto {
 
   @ApiProperty({ description: 'amount' })
   @IsNumber()
+  @Min(0)
   amount: number;
 
   @ApiProperty({ description: 'description' })
