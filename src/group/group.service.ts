@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 import Group from './entities/group.entity';
 import GroupCreateDto from './dto/group.create.dto';
 import GroupUpdateDto from './dto/group.update.dto';
-import ExpencesService from 'src/expences/expences.service';
+import ExpencesService from '../expences/expences.service';
 import SettlementResponseDto from './dto/settlement.response.dto';
 
 @Injectable()

@@ -8,7 +8,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import Expences from './entities/expences.entity';
 import ExpencesCreateDto from './dto/expences.create.dto';
-import GroupService from 'src/group/group.service';
+import GroupService from '../group/group.service';
 import ExpencesUpdateDto from './dto/expences.update.dto';
 
 @Injectable()

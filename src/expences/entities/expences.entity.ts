@@ -1,5 +1,5 @@
-import BaseModel from 'src/common/models/BaseModel';
-import Group from 'src/group/entities/group.entity';
+import BaseModel from '../../common/models/BaseModel';
+import Group from '../../group/entities/group.entity';
 import { Check, Column, Entity, JoinColumn, ManyToOne } from 'typeorm';
 
 @Entity()

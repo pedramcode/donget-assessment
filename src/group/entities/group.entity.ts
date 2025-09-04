@@ -1,5 +1,5 @@
-import BaseModel from 'src/common/models/BaseModel';
-import Expences from 'src/expences/entities/expences.entity';
+import BaseModel from '../../common/models/BaseModel';
+import Expences from '../../expences/entities/expences.entity';
 import { Column, Entity, OneToMany } from 'typeorm';
 
 @Entity()
